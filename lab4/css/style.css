@@ -1,0 +1,165 @@
+html{
+    height: 100%;
+}
+
+body{
+    background: white;
+    height: 100%;
+}
+
+#header{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #474350;
+}
+
+#header h1{
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 300%;
+}
+
+#navbar{
+    height: 5%;
+    padding-bottom: 1%;
+    width: 100%;
+    display: flex;
+    background: #474350;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar button{
+    background-color: #8B8599;
+    height: 100%;
+    width: 50%;
+    margin: 0.5%;
+    border: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+#navbar button:hover{
+    background-color: #312E38;
+}
+
+#postdiv{
+    background-color: #474350;
+    margin-top: 1%;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+}
+
+#postfieldsdiv{
+    height: fit-content;
+    background-color: #8B8599;
+    margin: 2%;
+    padding: 1%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#postfieldsdiv textarea, input[type="text"]{
+    width: 95%;
+}
+
+#postfieldsdiv input[type="submit"]{
+    background-color: #D1BCE3;
+    border: none;
+    color:#312E38;
+    padding:3%;
+    cursor: pointer;
+}
+
+#postfieldsdiv input[type="submit"]:hover{
+    background-color: #474350;
+    color: white;
+}
+
+#postsectiondiv{
+    background-color: #8B8599;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 1%;
+    margin: 2%;
+    width: 50%;
+}
+
+#postsectiondiv h2{
+    font-family: 'Indie Flower', cursive;
+    font-size: 200%;
+}
+
+#postsectiondiv div{
+    background-color: #D1BCE3;
+    color: #474350;
+    width: 90%;
+    padding: 4%;
+    font-size: 80%;
+}
+
+#postsectiondiv button{
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
+    background-color: #D1BCE3;
+    border: none;
+    color: #474350;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+#postsectiondiv button:hover{
+    color: white;
+}
+
+
+#postsectiondiv h3{
+    margin: 0;
+}
+
+#infodiv{
+    background-color: #8B8599;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 1%;
+    margin: 2%;
+    width: fit-content;
+    height: fit-content;
+}
+
+#logindiv {
+    background-color: #474350;
+    padding: 2%;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#logindiv form {
+    background-color: #8B8599;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 2%;
+    margin: 3%;
+    width: fit-content;
+}
+
+#logindiv input[type="submit"]{
+    background-color: #D1BCE3;
+    border: none;
+    color:#312E38;
+    padding: 3%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+#logindiv input[type="submit"]:hover{
+    background-color: #474350;
+    color: white;
+}
