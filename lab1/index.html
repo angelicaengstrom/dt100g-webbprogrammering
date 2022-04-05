@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <script src="main.js"></script> <!--Länkning till javascript-filen som används-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitkort</title>
+    <link rel="stylesheet" href="style.css"> <!--Länkning till css-filen som används-->
+</head>
+<body>
+    <div id="orderbox"> <!--Sektion som delar upp skapandet av företagskort-->
+        <h1>Beställ ditt visitkort här: </h1> 
+        <p>Företag .......
+            <input class="textfield" id="businesstxt" type="text" /> <!--Inmatningsfält för företagsnamn-->
+        </p>
+
+        <p>Efternamn .....
+            <input class="textfield" id="lastnametxt" type="text"/> <!--Inmatningsfält för efternamn-->
+        </p>
+
+        <p>Förnamn .......
+            <input class="textfield" id="firstnametxt" type="text" /> <!--Inmatningsfält för förnamn-->
+        </p>
+
+        <p>Titel .........
+            <input class="textfield" id="titeltxt" type="text" /> <!--Inmatningsfält för titelnamn-->
+        </p>
+
+        <p>Telefon .......
+            <input class="textfield" id="phonetxt" type="text" /> <!--Inmatningsfält för telefonnummer-->
+        </p>
+
+        <p>E-post ........
+            <input class="textfield" id="emailtxt" type="text" /> <!--Inmatningsfält för e-post-->
+        </p>
+
+        <p>Bakgrundsfärg .
+            <select id="backgroundselect"> <!--Rullgardinsmeny för bakgrundsfärg på visitkort-->
+                <option value = "lightblue" selected>Ljusblå</option>
+                <option value = "lightyellow">Ljusgul</option>
+                <option value = "white">Vit</option>
+                <option value = "turquoise">Turkos</option>
+            </select>
+        </p>
+
+        <p>Textfärg .....
+            <select id="colorselect"> <!--Rullgardinsmeny för textfärg på visitkort-->
+                <option value = "black" selected>Svart</option>
+                <option value = "blue">Blå</option>
+                <option value = "red">Röd</option>
+                <option value = "darkgreen">Mörkgrön</option>
+            </select>
+        </p>
+
+        <p>Typsnitt
+            <select id="fontselect"> <!--Rullgardinsmeny för fontstil på visitkort-->
+                <option value = "Verdana" selected>Verdana</option>
+                <option value = "Arial">Arial</option>
+                <option value = "Tahoma">Tahoma</option>
+                <option value = "Impact">Impact</option>
+            </select>
+        </p>
+
+        <div id="buttons"> <!--Knappar för funktionalitet-->
+            <button id="clear">Nollställ</button>
+            <button id="print">Skriv Ut</button>
+        </div>
+    </div>
+
+    <div id="resultbox"> <!--Sektion som visar resultatet av företagskortet-->
+        <h1 id="business">DesignSpecialisten</h1>
+        <h2 id="firstname">Mårten</h2>
+        <h2 id="lastname">Gås</h2>
+        <p id="titel">Tänkare</p>
+        <br>
+        <h2 id="phone">Tfn </h2>
+        <p id="email">Epost: </p>
+    </div>
+</body>
+</html>

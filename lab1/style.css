@@ -1,0 +1,98 @@
+#orderbox {
+    background-color: rgb(167, 202, 240);
+    width: 325px;
+    position: fixed;
+    margin: 20px;
+}
+
+#orderbox *{
+    margin: 0px;
+}
+
+#orderbox h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#orderbox p {
+    padding: 5px;
+}
+
+#buttons{
+    text-align: center;
+    padding: 20px;
+}
+
+#orderbox button {
+    padding: 3px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(233, 233, 220);
+    border-bottom: 2px solid grey;
+    border-top: 1px solid whitesmoke;
+    border-right: 2px solid grey;
+    border-left: 1px solid whitesmoke;
+    font-family: Arial;
+}
+
+#orderbox button:active{
+    background-color: lightgrey;
+    border-top: 2px solid grey;
+    border-bottom: 1px solid rgb(233, 233, 220);
+    border-left: 2px solid grey;
+    border-right: 1px solid rgb(233, 233, 220);
+}
+
+.textfield{
+    position:absolute;
+    left: 110px;
+    width: 45%;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid whitesmoke;
+    border-left: 2px solid grey;
+    border-right: 2px solid whitesmoke;
+}
+
+#orderbox select {
+    position:absolute;
+    left: 110px;
+    margin-right: 50px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid whitesmoke;
+    border-left: 2px solid grey;
+    border-right: 2px solid whitesmoke;
+    border-radius: 0px;
+}
+
+#resultbox {
+    position:absolute;
+    left: 5px;
+    width: fit-content;
+    background-color: rgb(255, 254, 223);
+    color: rgb(0, 1, 254);
+    font-family: Tahoma;
+    margin-top: 5px;
+}
+
+#resultbox *{
+    margin: 0px;
+    margin-right: 50px;
+}
+
+#resultbox #firstname{
+    float: left;
+    width: fit-content;
+    margin-right: 10px;
+}
+
+#resultbox h2{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#resultbox h1{
+    font-weight: 100;
+}
